@@ -29,7 +29,7 @@ echo <<<EOT
 	<body>
         <header>
             <div class="content-wrapper">
-                <h1>Shopping Cart System</h1>
+                <h1>CLEE SHOES STORE</h1>
                 <nav>
                     <a href="index.php">Home</a>
                     <a href="index.php?page=products">Products</a>
@@ -45,16 +45,18 @@ echo <<<EOT
         <main>
 EOT;
 }
-// Template footer
+// footer
 function template_footer() {
 $year = date('Y');
 echo <<<EOT
         </main>
         <footer>
         
-            <div class="content-wrapper">
-                <p>&copy; $year, Shopping Cart System</p>
+            <center>
+            <div class="content-wrapper ">
+                <p>&copy; $year, CLEE SHOES STORE</p>
             </div>
+            </center>
         </footer>
         <script src="script.js"></script>
     </body>
